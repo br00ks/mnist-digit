@@ -68,6 +68,7 @@ predictions[0]
 print("The 1st sample in the test set is predicted to be: {pred}".format(pred=class_names[test_labels[0]]))
 print("The 2nd sample in the test set is predicted to be: {pred}".format(pred=class_names[test_labels[1]]))
 print("The 3rd sample in the test set is predicted to be: {pred}".format(pred=class_names[test_labels[2]]))
+print("... and so on")
 
 # plot first 12 test images with predicted and true label
 # correct predictions are green, wrong predictions are red
@@ -87,7 +88,7 @@ img = test_images[0]
 img = (np.expand_dims(img,0))
 # print(img.shape)
 predictions_single = model.predict(img)
-print(predictions_single)
+# print(predictions_single)
 plt.figure()
 plt.grid(False)
 plt.xticks([])
