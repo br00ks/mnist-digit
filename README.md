@@ -1,6 +1,6 @@
 # Building a neural network to recognize handwritten digits
 Simple neural network to solve the MNIST digit classification problem using Tensorflow.
-We are using the famous MNSIT dataset, which consists of pictures of handwritten digitis von 0 to 9. Each picture is a 28x28 pixel grayscale image. The training dataset consists of 60.000 images, the testing dataset of 10.000 images.
+We are using the famous MNIST dataset, which consists of pictures of handwritten digits from 0 to 9. Each picture is a 28x28 pixel grayscale image. The training dataset consists of 60.000 images, the testing dataset of 10.000 images.
 
 ## Preprocessing
 Before we can start we need to normalise the pixel values, so that they lie between 0 and 1 instead of 0 and 255. In order to do so, we divide the training and test datasets by 255.
