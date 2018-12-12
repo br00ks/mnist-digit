@@ -1,3 +1,5 @@
+# authors: Karin Lampesberger, Maria Stoyanova
+
 import matplotlib.pyplot as plt
 import numpy as np
 
